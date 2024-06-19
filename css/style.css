@@ -9,7 +9,9 @@
 .sidebar{
     width: 100px;
     height: 100vh;
-    background-color: black;
+    background-color: rgb(5, 30, 52);
+    background-image: url(../img/sidebar-bg.png);
+    background-size: cover;
 }
 
 .main-content{
@@ -33,6 +35,13 @@
     
 }
 
+.bottom-sidebar{
+    height: 100px;
+}
+
+.top-sidebar{
+    height: calc(100vh - 100px);
+}
 
 
 
@@ -40,7 +49,7 @@
     .sidebar{
         width: 200px;
         height: 100vh;
-        background-color: black;
+        background-color: rgb(5, 30, 52);
     }
 
     .main-content{
@@ -57,6 +66,14 @@
         display: block;
       }
 
+      .sidebar-mobile{
+        display: none;
+      }
+
+      .sidebar-desktop{
+        display: block;
+      }
+
       
 
 }
@@ -67,6 +84,14 @@
       }
 
       .content-desktop{
+        display: none;
+      }
+
+      .top-sidebar{
+        display: block;
+      }
+
+      .sidebar-desktop{
         display: none;
       }
 }
