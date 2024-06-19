@@ -10,12 +10,28 @@ header{
 }
 
 .sidebar{
-    width: 230px;
-    height: 100%;
+    width: 100px;
+    height: 100vh;
     background-color: black;
 }
 
-.content-sidebar{
-   background-image: url(../img/sidebar-bg.png);
-   height: 100%;
+.main-content{
+    width: calc(100vw - 100px);
+    background-color: rgb(24, 24, 46);
+    height: 100vh;
+}
+
+@media screen and (min-width:576px) {
+    .sidebar{
+        width: 200px;
+        height: 100vh;
+        background-color: black;
+    }
+
+    .main-content{
+        width: calc(100vw - 200px);
+        background-color: rgb(24, 24, 46);
+        height: 100vh;
+    }
+
 }
