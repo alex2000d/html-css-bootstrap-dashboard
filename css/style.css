@@ -7,17 +7,22 @@
 
 
 .sidebar{
-    width: 100px;
+    width: 80px;
     height: 100vh;
     background-color: rgb(5, 30, 52);
     background-image: url(../img/sidebar-bg.png);
     background-size: cover;
 }
 
+.table-md img{
+  width: 20px;
+}
+
 .main-content{
-    width: calc(100vw - 100px);
+    width: calc(100vw - 80px);
     background-color: rgb(24, 24, 46);
     height: 100vh;
+    overflow-y: auto;
 }
 
 .content-mobile img{
@@ -51,6 +56,12 @@
     padding: 0 10px;
 }
 
+.label-table{
+  background-color: green;
+  border-radius: 20px;
+  padding: 3px;
+}
+
 .font-size{
     font-size:12px ;
 }
@@ -58,6 +69,16 @@
 .padding{
     padding: 10px;
     border: 1px solid white;
+}
+
+.pd-table{
+  padding: 0px 10px;
+  border: 1px solid white;
+}
+
+.pd-icons{
+  padding: 5px 10px;
+  border: 1px solid black;
 }
 
 
