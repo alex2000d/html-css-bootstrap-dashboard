@@ -4,10 +4,7 @@
     box-sizing: border-box;
 }
 
-header{
-    background-color: #4a0000;
-    height: 50px;
-}
+
 
 .sidebar{
     width: 100px;
@@ -21,7 +18,25 @@ header{
     height: 100vh;
 }
 
-@media screen and (min-width:576px) {
+.content-mobile img{
+    width: 50px;
+    height: 50px;
+}
+
+.content-desktop img{
+    width: 150px;
+    height: 50px;
+}
+
+.bg-gray{
+    background-color: rgb(248, 249, 250);
+    
+}
+
+
+
+
+@media screen and (min-width:768px) {
     .sidebar{
         width: 200px;
         height: 100vh;
@@ -34,4 +49,27 @@ header{
         height: 100vh;
     }
 
+    .content-mobile{
+        display:none;
+      }
+
+      .content-desktop{
+        display: block;
+      }
+
+      
+
 }
+
+@media screen and (max-width:769px) {
+    .content-mobile{
+        display:block;
+      }
+
+      .content-desktop{
+        display: none;
+      }
+}
+
+
+
