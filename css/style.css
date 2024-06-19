@@ -31,7 +31,7 @@
 }
 
 .bg-gray{
-    background-color: rgb(248, 249, 250);
+    background-color: rgb(88, 89, 91);
     
 }
 
@@ -41,6 +41,23 @@
 
 .top-sidebar{
     height: calc(100vh - 100px);
+}
+
+.label,
+.label-desktop,
+.label-mobile{
+    border-radius: 20px;
+    background-color: blue;
+    padding: 0 10px;
+}
+
+.font-size{
+    font-size:12px ;
+}
+
+.padding{
+    padding: 10px;
+    border: 1px solid white;
 }
 
 
@@ -73,6 +90,10 @@
         display: block;
       }
 
+      .label-mobile{
+        display: none;
+      }
+
       
 
 }
@@ -93,6 +114,11 @@
       .sidebar-desktop{
         display: none;
       }
+
+      .label-desktop{
+        display: none;
+      }
+      
 }
 
 
