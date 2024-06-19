@@ -127,8 +127,96 @@
                       </div>
                      <div class="col-12 col-md-4 col-lg-2 order-sm-first order-md-last">
                         <div class="content">
-                            <span class="text-white font-size mt-2">nuovo utente</span>
-                            <a href=""><i class="fa-solid fa-square fa-plus mt-2 mb-2 padding " style="color: #Ffff;"></i></a>
+                            <span class="text-white font-size mt-2">nuovo studente</span>
+                            <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                                <i class="fa-solid fa-square fa-plus mt-2 mb-2 padding " style="color: #Ffff;"></i></a>
+                              </button>
+                              <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                                <div class="offcanvas-header">
+                                  <h5 class="offcanvas-title" id="offcanvasExampleLabel">inserisci un nuovo utente</h5>
+                                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                </div>
+                                <div class="offcanvas-body">
+                                  <div class="d-flex">
+                                    <div class="mx-2"><label class="form-label mx-2" for="name">nome</label>
+                                      <input class="form-control mx-2" type="text"></div>
+                                      <div class="mx-2"><label class="form-label mx-2" for="surname">cognome</label>
+                                        <input class="form-control mx-2" type="text"></div>
+                                        
+                                  </div>
+                                  <div class="d-flex">
+                                   
+                                      <div class="mx-2"><label class="form-label mx-2" for="name">email</label>
+                                      
+                                        <div class="input-group mb-3">
+                                          <span class="input-group-text" id="basic-addon1">@</span>
+                                          <input type="text" class="form-control" aria-label="Username" aria-describedby="basic-addon1">
+                                        </div>
+                                        
+                                      </div>
+                                      <div class="mx-2"><label class="form-label mx-2" for="surname">password</label>
+                                        <input class="form-control mx-2" type="password"></div>
+                                  </div>
+
+                                  <div class="d-flex">
+                                   
+                                    <div class="mx-2"><label class="form-label mx-2" for="name">indirizzo email</label>
+                                    
+                                      <div class="input-group mb-3">
+                                        <span class="input-group-text" id="basic-addon1">@</span>
+                                        <input type="text" class="form-control" aria-label="Username" aria-describedby="basic-addon1">
+                                      </div>
+                                      
+                                    </div>
+                                    <div class="mx-2"><label class="form-label mx-2" for="surname">password</label>
+                                      <input class="form-control mx-2" type="password"></div>
+                                </div>
+                                 
+                                <div class="d-flex">
+                                  <div class="mx-2"><label class="form-label mx-2" for="surname">indirizzo</label>
+                                    <input class="form-control mx-2" type="text"></div>
+                              </div>
+                               
+                              <div class="d-flex">
+                                   
+                                <div class="mx-2"><label class="form-label mx-2" for="name">città</label>
+                                
+                                  <div class="input-group mb-3">
+                                    <span class="input-group-text" id="basic-addon1">@</span>
+                                    <input type="text" class="form-control" aria-label="Username" aria-describedby="basic-addon1">
+                                  </div>
+
+                                  <label class="form-label mx-2" for="name">stato</label>
+                                   <select class="form-select" aria-label="Default select example">
+                                      <option selected></option>
+                                      <option value="1">italia</option>
+                                      <option value="2">inghilterra</option>
+                                      <option value="3">spagna</option>
+                                    </select>
+                                </div>
+                                <div class="mx-2"><label class="form-label mx-2" for="surname">cap</label>
+                                  <input class="form-control mx-2" type="text"></div>
+                                </div>
+                                  
+                                <div class="d-flex">
+                                   
+                                  <div class="mx-2">
+                                    <div class="mb-3 mt-3">
+                                      <label for="formFile" class="form-label">foto</label>
+                                      <input class="form-control" type="file" id="formFile">
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="form-check">
+                                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                  <label class="form-check-label" for="flexCheckDefault">
+                                    seleziona per proseguire
+                                  </label>
+                              </div>
+                              <button type="button" class="btn btn-primary mt-3">salva</button>
+                              <button type="button" class="btn btn-warning mt-3">svuota</button>
+                            </div>
+                              
                         </div>
                     </div>
                   </div>
